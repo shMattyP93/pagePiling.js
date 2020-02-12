@@ -1,0 +1,29 @@
+/* =============
+    Variables
+============= */
+
+// Define the breakpoints
+// Small tablets and large smartphones
+$screen-sm-min: 576px;
+
+// Small tablets
+$screen-md-min: 768px;
+
+// Large tablets and small desktops
+$screen-lg-min: 992px;
+
+// Large desktops
+$screen-xl-min: 1200px;
+
+// Larger desktops
+$screen-xxl-min: 1500px;
+
+// Even larger desktops
+$screen-xxxl-min: 1800px;
+
+// Colors
+$white: #F6F7F8;
+$black: #010101;
+$blue: #011627;
+$red: #FF3366;
+$green: #2EC4B6;

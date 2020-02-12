@@ -1,0 +1,13 @@
+{
+  "name": "codekit-project",
+  "version": "1.0.0",
+  "description": "CodeKit created this starter package.json file. You should customize it appropriately.",
+  "scripts": {},
+  "author": "",
+  "license": "UNLICENSED",
+  "repository": {},
+  "dependencies": {
+    "fullpage.js": "^3.0.8",
+    "pagepiling.js": "^1.5.6"
+  }
+}

@@ -1,0 +1,116 @@
+#pagepiling{
+  .section{
+    height:100%;
+    #one{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      div{
+        background-color: $blue;
+        text-align: center;
+        height: 100%;
+        width: 100%;
+        position: relative;
+        .right{
+          position: absolute;
+          top: 0;
+          right: 100px;
+        }
+        .left{
+          position: absolute;
+          bottom:0;
+          left: 100px;
+        }
+        h1{
+          padding-top: 300px;
+          color: $green;
+        }
+        h2{
+          color: $white;
+        }
+      }
+    }
+    #two{
+      height: 100%;
+      div{
+        background-color: $green;
+        height: 100%;
+        width: 100%;
+        position: relative;
+        .left{
+          position: absolute;
+          top:0;
+          left:100px;
+          z-index:1337;
+        }
+        .right{
+          position: absolute;
+          bottom: 0px;
+          right: 550px;
+        }
+        .content{
+          h2{
+            padding-left: 200px;
+            padding-right: 600px;
+            padding-top: 5%;
+          }
+          .code{
+            padding-left: 200px;
+            padding-top: 5%;
+          }
+        }
+      }
+    }
+    #three{
+      height: 100%;
+      div{
+        background-color: $white;
+        height:100%;
+        width:100%;
+        position: relative;
+        display: grid;
+        grid-template-columns: 55% auto;
+        grid-template-areas: "list .";
+        ul{
+          grid-area: list;
+          padding-right: 5%;
+          padding-top: 20%;
+          li{
+            text-align: right;
+            &:nth-child(2),&:nth-child(3),&:nth-child(4),&:nth-child(5){
+              padding-top: 3%;
+            }
+            &:nth-child(2){
+              color: $red;
+            }
+            &:nth-child(4){
+              color: $red;
+            }
+          }
+        }
+        .right{
+          position: absolute;
+          top: 0px;
+          right: 550px;
+          padding: 0;
+          margin: 0;
+        }
+        .right-two{
+          position: absolute;
+          top: 0px;
+          right: 500px;
+          padding: 0;
+          margin: 0;
+        }
+        .right-three{
+          position: absolute;
+          top: 0px;
+          right: 450px;
+          padding: 0;
+          margin: 0;
+        }
+      }
+    }
+  }
+}
